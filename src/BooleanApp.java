@@ -2,17 +2,17 @@
 public class BooleanApp {
 
 	public static void main(String[] args) {
-		// Data type µ¥ÀÌÅÍ Å¸ÀÔ
+		// Data type ë°ì´í„° íƒ€ì…
 		
-		System.out.println("One"); // String ¹®ÀÚ¿­
-		System.out.println(1); // Integer Á¤¼ö
+		System.out.println("One"); // String ë¬¸ìì—´
+		System.out.println(1); // Integer ì •ìˆ˜
 		
 		// Boolean Data type 
 		System.out.println(true);
 		System.out.println(false);
 		
 		String foo = "Hello world";
-		// String true = "Hello world"; º¯¼öÀÇ ÀÌ¸§À¸·Î »ç¿ëÇÒ ¼ö ¾ø´Ù (reserved word)
+		// String true = "Hello world"; ë³€ìˆ˜ì˜ ì´ë¦„ìœ¼ë¡œ ì‚¬ìš©í•  ìˆ˜ ì—†ë‹¤ (reserved word)
 		
 		System.out.println(foo.contains("world")); // true
 		System.out.println(foo.contains("wor")); // true

@@ -2,7 +2,7 @@
 public class AuthApp {
 
 	public static void main(String[] args) {
-		// if¹® ÀÀ¿ë
+		// ifë¬¸ ì‘ìš©
 		
 		String id = "oneul";
 		String inputId = args[0];
@@ -12,7 +12,7 @@ public class AuthApp {
 		
 		System.out.println("Hi.");
 		
-		// if¹® ÁßÃ¸ÇØ¼­ »ç¿ë
+		// ifë¬¸ ì¤‘ì²©í•´ì„œ ì‚¬ìš©
 		if(inputId.equals(id)) {
 			if(inputPass.equals(pass)) {
 				System.out.println("Master!");
@@ -23,7 +23,7 @@ public class AuthApp {
 			System.out.println("Who are you?");
 		}
 		
-		// ³í¸® ¿¬»êÀÚ && »ç¿ë
+		// ë…¼ë¦¬ ì—°ì‚°ì && ì‚¬ìš©
 		if(inputId.equals(id) && inputPass.equals(pass)) {
 			System.out.println("Master!");
 		} else {

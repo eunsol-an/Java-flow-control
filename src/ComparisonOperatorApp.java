@@ -2,7 +2,7 @@
 public class ComparisonOperatorApp {
 
 	public static void main(String[] args) {
-		// Comparison Operator ºñ±³ ¿¬»êÀÚ
+		// Comparison Operator ë¹„êµ ì—°ì‚°ìž
 		
 		System.out.println(1 > 1); // false
 		System.out.println(1 == 1); // true

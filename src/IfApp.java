@@ -2,11 +2,11 @@
 public class IfApp {
 
 	public static void main(String[] args) {
-		// if¹®
+		// ifë¬¸
 		
 		System.out.println("a");
 		
-		// if¹® ÁßÃ¸ÇÏ¿© »ç¿ë °¡´É(ºñÃß)
+		// ifë¬¸ ì¤‘ì²©í•´ì„œ ì‚¬ìš©
 //		if(false) {
 //			System.out.println(1);
 //		} else {
@@ -17,7 +17,7 @@ public class IfApp {
 //			}
 //		}
 		
-		// else if¸¦ »ç¿ëÇÏ´Â °ÍÀÌ ´õ ÁÁ´Ù.
+		// else ifë¬¸ì„ ì‚¬ìš©
 		if(false) {
 			System.out.println(1);
 		} else if(true) {
